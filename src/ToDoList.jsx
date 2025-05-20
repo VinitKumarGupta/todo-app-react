@@ -25,16 +25,6 @@ export default function ToDoList() {
         setTodos((prevTodos) => prevTodos.filter((todo) => todo.id !== id));
     };
 
-    // UpperCase All Functionality:
-    // let upperCaseAll = () => {
-    //     setTodos((prevTodos) =>
-    //         prevTodos.map((item) => ({
-    //             ...item,
-    //             todo: item.todo.toUpperCase(),
-    //         }))
-    //     );
-    // };
-
     // MarkAsDone Functionality:
     let MarkAsDone = (id) => {
         setTodos((prevTodos) =>
@@ -91,7 +81,6 @@ export default function ToDoList() {
                 })}
             </ul>
             <br />
-            {/* <button onClick={upperCaseAll}>UpperCase All</button> */}
         </div>
     );
 }
