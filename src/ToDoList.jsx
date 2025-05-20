@@ -44,7 +44,7 @@ export default function ToDoList() {
 
     return (
         <div className="container">
-            <h1>To Do List</h1>
+            <h1>To-Do App</h1>
             <div className="inputField">
                 <input
                     placeholder="Add new task..."
