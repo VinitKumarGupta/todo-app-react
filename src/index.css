@@ -1,0 +1,23 @@
+:root {
+    font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.87);
+    background-color: #0f0f1e;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+html,
+body,
+#root {
+    width: 100%;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: block;
+    background-color: #0f0f1e;
+}
