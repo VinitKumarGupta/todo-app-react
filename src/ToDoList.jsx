@@ -81,6 +81,19 @@ export default function ToDoList() {
                 })}
             </ul>
             <br />
+            <p>
+                Made with{" "}
+                <span
+                    style={{
+                        color: "#fff",
+                        fontSize: "20px",
+                        marginRight: "5px",
+                    }}
+                >
+                    ❤️
+                </span>
+                by Vinit Gupta
+            </p>
         </div>
     );
 }
