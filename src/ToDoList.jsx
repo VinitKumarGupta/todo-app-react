@@ -25,6 +25,11 @@ export default function ToDoList() {
         setTodos((prevTodos) => prevTodos.filter((todo) => todo.id !== id));
     };
 
+    // Delete All Tasks:
+    let deleteAllTodos = () => {
+        setTodos((prevTodos) => prevTodos.filter((todo) => todo.id === ""));
+    };
+
     // MarkAsDone Functionality:
     let MarkAsDone = (id) => {
         setTodos((prevTodos) =>
@@ -53,7 +58,18 @@ export default function ToDoList() {
             <br />
             <br />
             <hr />
-            <h2>Task List</h2>
+            <h2 style={{ fontSize: "1.7rem" }}>🔹Task List🔹</h2>
+            {todos.length ? (
+                <button
+                    className="optBtns"
+                    onClick={deleteAllTodos}
+                    style={{ width: "100%", fontSize: "1rem" }}
+                >
+                    Clear all Tasks
+                </button>
+            ) : (
+                ""
+            )}
             <ul>
                 {todos.map((item) => {
                     return (
