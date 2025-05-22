@@ -8,33 +8,26 @@ A clean and elegant React-based Todo application with a beautiful UI.
 
 Follow these steps to run the Todo app locally on your computer:
 
-1. **Clone the repository**
+#### 1. Clone the repo
 
 ```bash
-git clone https://github.com/your-username/your-todo-app.git
+git clone https://github.com/<your-username>/joke-generator.git
+cd joke-generator
 ```
 
-2. **Navigate to the project directory**
-
-```bash
-cd your-todo-app
-```
-
-3. **Install dependencies**
+#### 2. Install dependencies
 
 ```bash
 npm install
 ```
 
-4. **Start the development server**
+#### 3. Run the app
 
 ```bash
-npm start
+npm run dev
 ```
 
-5. **Open your browser**
-
-Visit [http://localhost:3000](http://localhost:3000) to view the app.
+> This assumes you’re using Vite. If using `create-react-app`, the command is `npm start`.
 
 ---
 
