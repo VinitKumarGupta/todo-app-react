@@ -11,8 +11,8 @@ Follow these steps to run the Todo app locally on your computer:
 #### 1. Clone the repo
 
 ```bash
-git clone https://github.com/<your-username>/joke-generator.git
-cd joke-generator
+git clone https://github.com/VinitKumarGupta/todo-app-react.git
+cd todo-app-react
 ```
 
 #### 2. Install dependencies
