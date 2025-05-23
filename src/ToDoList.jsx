@@ -1,6 +1,7 @@
 import "./ToDoList.css";
 import { useState } from "react";
 import { v4 as uuidv4 } from "uuid";
+import Button from "@mui/material/Button";
 
 export default function ToDoList() {
     const [todos, setTodos] = useState([
@@ -60,13 +61,18 @@ export default function ToDoList() {
             <hr />
             <h2 style={{ fontSize: "1.7rem" }}>🔹Task List🔹</h2>
             {todos.length ? (
-                <button
+                <Button
+                    variant="contained"
                     className="optBtns"
                     onClick={deleteAllTodos}
-                    style={{ width: "100%", fontSize: "1rem" }}
+                    style={{
+                        width: "100%",
+                        fontSize: "1rem",
+                        borderRadius: "2rem",
+                    }}
                 >
                     Clear all Tasks
-                </button>
+                </Button>
             ) : (
                 ""
             )}
